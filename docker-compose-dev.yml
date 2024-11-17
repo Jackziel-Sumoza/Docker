@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  backend:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    ports: 
+      - "8000:8000"
+    links: 
+      - database
+    volumes:
+      - .:/home/app
+  database:
+    image: django
+    ports:
+      - "8001:8001"
+    # volumes:
+    #   - sqlite3-data:/lib/db.sqlite3
+
+# volumes:
+#   sqlite3-data:
