@@ -16,8 +16,6 @@
     - [¿Por qué Docker ha revolucionado el desarrollo y despliegue de aplicaciones?](#por-qué-docker-ha-revolucionado-el-desarrollo-y-despliegue-de-aplicaciones)
     - [Escenarios de uso más allá de los básicos](#escenarios-de-uso-más-allá-de-los-básicos)
     - [Conceptos avanzados y herramientas relacionadas](#conceptos-avanzados-y-herramientas-relacionadas)
-    - [¿Qué sigue después de aprender los conceptos básicos?](#qué-sigue-después-de-aprender-los-conceptos-básicos)
-    - [Comparación entre Docker y máquinas virtuales, mejores prácticas y ejemplos de uso](#comparación-entre-docker-y-máquinas-virtuales-mejores-prácticas-y-ejemplos-de-uso)
     - [Docker vs. Máquinas Virtuales](#docker-vs-máquinas-virtuales)
   - [APRENDE DOCKER AQUÍ](#aprende-docker-aquí)
     - [Ver las imágenes:](#ver-las-imágenes)
@@ -132,17 +130,6 @@ Una **imagen** es un archivo estático que contiene todo lo necesario para ejecu
 -   **Docker Compose:** Permite definir y ejecutar aplicaciones multi-contenedor usando un solo archivo YAML.
 -   **Docker Swarm:** Es una herramienta de orquestación de contenedores nativa de Docker, que permite gestionar clústeres de contenedores de forma sencilla.
 -   **Kubernetes:** Es una plataforma de orquestación de contenedores de código abierto más avanzada y flexible que Docker Swarm, ampliamente utilizada en entornos de producción.
-
-### ¿Qué sigue después de aprender los conceptos básicos?
-
-Una vez que comprendas los fundamentos de Docker, puedes profundizar en temas como:
-
--   **Seguridad de los contenedores:** Cómo proteger tus contenedores de vulnerabilidades y ataques.
--   **Redes de contenedores:** Cómo conectar contenedores entre sí y con el mundo exterior.
--   **Almacenamiento persistente:** Cómo gestionar el almacenamiento de datos persistentes en contenedores.
--   **Optimización de imágenes:** Cómo crear imágenes de Docker más pequeñas y eficientes.
-
-### Comparación entre Docker y máquinas virtuales, mejores prácticas y ejemplos de uso
 
 ### Docker vs. Máquinas Virtuales
 
